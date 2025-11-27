@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA Lakers | The Lake Show</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <nav>
+            <div class="logo">LAKERS</div>
+            <ul class="nav-links">
+                <li><a href="#roster">Roster</a></li>
+                <li><a href="#hof">Legends</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="LAKE SHOW">LAKE SHOW</h1>
+            <p class="subtitle">Purple & Gold Forever</p>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <!-- Abstract shapes or video background could go here -->
+        </div>
+    </header>
+
+    <main>
+        <section id="roster" class="roster-section">
+            <div class="roster-wrapper">
+                <h2 class="section-title">THE SQUAD</h2>
+                <div class="roster-track" id="roster-track">
+                    <!-- Injected via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="hof" class="hof-section">
+            <div class="hof-container">
+                <h2 class="section-title">IMMORTALS</h2>
+                <div class="hof-gallery" id="hof-gallery">
+                    <!-- Injected via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <h2 class="section-title">STATS CENTER</h2>
+            <div class="stats-container">
+                <div class="stats-column">
+                    <h3 class="stats-header">2024-25 LEADERS</h3>
+                    <div class="stats-grid" id="current-stats">
+                        <!-- Injected via JS -->
+                    </div>
+                </div>
+                <div class="stats-column">
+                    <h3 class="stats-header">ALL-TIME LEADERS</h3>
+                    <div class="stats-grid" id="alltime-stats">
+                        <!-- Injected via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="legacy" class="legacy-section">
+            <h2 class="section-title">DYNASTY</h2>
+            <div class="trophy-room">
+                <div class="trophy-count">17</div>
+                <div class="trophy-label">CHAMPIONSHIPS</div>
+                <div class="champ-years">
+                    49 • 50 • 52 • 53 • 54 • 72 • 80 • 82 • 85 • 87 • 88 • 00 • 01 • 02 • 09 • 10 • 20
+                </div>
+                <div class="trophies-bg"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Los Angeles Lakers Fan Site. Designed by Antigravity.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
